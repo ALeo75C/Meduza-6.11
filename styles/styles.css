@@ -1,2 +1,12 @@
 @import "reset.css";
-@import "layaut.css";
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+header{
+  font-family: Arial, sans-serif;
+}
+h3 {
+  font-family: Georgia, serif;
+}
