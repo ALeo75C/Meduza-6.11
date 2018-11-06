@@ -1,6 +1,7 @@
 @import "reset.css";
 
 * {
+  box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -37,4 +38,29 @@ header ul {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.panel {
+  font-weight: bold;
+  background-color: #fff;
+  height: 45px;
+  padding: 0 15px;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+  padding-top: 15px;
+}
+.panel button{
+  position: absolute;
+  right: 0;
+}
+main {
+  background-color: rgb(242, 242, 242);
+  height: 100px;
+  padding-top: 15px;
+}
+section {
+  border: 1px solid #ccc;
+  border-top: 4px solid #b88b58;
+  background-color: #fff;
+  width: 90vw;
+  margin: 0 auto;
 }
