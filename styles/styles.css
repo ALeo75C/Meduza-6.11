@@ -90,12 +90,12 @@ section.topStories {
   font-size: 14px;
   font-weight: 600;
 }
-.container {
+.topStories__container {
   display: flex;
 
   padding: 18px;
 }
-.boxStandart {
+.topStories__container__box {
   position: relative;
 
   display: flex;
@@ -109,10 +109,14 @@ section.topStories {
 
   align-items: flex-start;
 }
-.container > .boxStandart:first-of-type {
+.topStories__container__box--is-important > h3 {
+  font-size: 32px;
+  line-height: 36px;
+}
+.topStories__container__box:first-of-type {
   padding-left: 0;
 }
-.contRighit {
+.topStories__container__card-list {
   display: flex;
 
   width: 50%;
@@ -120,17 +124,13 @@ section.topStories {
 
   flex-wrap: wrap;
 }
-.boxStandart > h3 {
-  font-size: 32px;
-  line-height: 36px;
-}
-.contRighit > .boxStandart > h3 {
+.topStories__container__card-list__box > h3 {
   padding-bottom: 12px;
 
   font-size: 20px;
   line-height: 21px;
 }
-.boxStandart > .timest {
+.topStories__container__box > .topStories__container__card-list__box__timest {
   position: absolute;
   bottom: 0;
 
