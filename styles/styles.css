@@ -1,4 +1,5 @@
 @import "reset.css";
+@import "fonts.css";
 
 * {
   box-sizing: border-box;
@@ -7,10 +8,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 header, .panel, .timest{
-  font-family: Arial, sans-serif;
+  font-family: "Proxima Nova", sans-serif;
 }
 h3 {
-  font-family: Georgia, serif;
+  font-family: "PF Regal", serif;
 }
 body {
   background-color: rgb(242, 242, 242);
@@ -42,6 +43,7 @@ body > header ul {
 }
 body > header li {
   padding-right: 15px;
+  font-weight: 600;
 }
 header ul {
   display: flex;
@@ -59,7 +61,7 @@ header ul {
   border-bottom: 1px solid #ccc;
   background-color: #fff;
 
-  font-weight: bold;
+  font-weight: 600;
 }
 .panel button{
   position: absolute;
@@ -68,22 +70,22 @@ header ul {
 main {
   padding-top: 15px;
 }
-section {
-  width: 90vw;
+section.topStories {
+  width: 70vw;
   margin: 0 auto;
 
   border: 1px solid #ccc;
   border-top: 4px solid #b88b58;
   background-color: #fff;
 }
-section header {
+.topStories__header {
   margin-top: 15px;
   margin-left: 18px;
 
   letter-spacing: 0.4px;
   text-transform: uppercase;
 
-  opacity: 0.3;
+  color: gray;
 
   font-size: 14px;
   font-weight: 600;
